@@ -13,28 +13,28 @@ body {
 
 .navlink-section {
     display: flex;
-    gap: 32px;  
+    gap: 32px;
 }
 
-.nav-links{
+.nav-links {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
-.hero-section{
+.hero-section {
     padding-top: 64px;
-    text-align:center;
+    text-align: center;
 }
 
-.hero-title{
+.hero-title {
     color: hsl(0, 0%, 100%)
 }
 
-.hero-description{
- color:hsl(0, 0%, 100%)
+.hero-description {
+    color: hsl(0, 0%, 100%)
 }
 
-.hero-button{
+.hero-button {
     color: hsl(0, 0%, 100%);
     background-color: hsl(176, 68%, 64%);
     padding-top: 10px;
@@ -44,3 +44,48 @@ body {
     border: none;
     border-radius: 16px;
 }
+
+
+.feature-section {
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+.feature-card {
+    width: 400px;
+    text-align: center;
+}
+
+.feature-title {
+    color: hsl(0, 0%, 100%);
+
+}
+
+.feature-description {
+    color: hsl(0, 0%, 100%);
+}
+
+.productive-section {
+    display: flex;
+    color: hsl(0, 0%, 100%);
+align-items: center;
+}
+
+.productive-button {
+    color: hsl(176, 68%, 64%);
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+.productive-buttonsection{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+    
