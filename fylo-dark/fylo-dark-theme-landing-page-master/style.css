@@ -73,7 +73,7 @@ body {
 .productive-section {
     display: flex;
     color: hsl(0, 0%, 100%);
-align-items: center;
+    align-items: center;
 }
 
 .productive-button {
@@ -83,32 +83,75 @@ align-items: center;
     text-decoration: underline;
 }
 
-.productive-buttonsection{
+.productive-buttonsection {
     display: flex;
     align-items: center;
     gap: 0px;
 }
 
-.testimonial-section{
+.testimonial-section {
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 15px;
 }
-    
-.testimonial-image{
+
+.testimonial-image {
     width: 50px;
     height: 50px;
-      border-radius: 20px;
-    
+    border-radius: 20px;
+
 }
 
-.testimonial-card{
-    background-color:hsl(219, 30%, 18%);
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-right:15px;
-    padding-left:15px;
+.testimonial-card {
+    background-color: hsl(219, 30%, 18%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
     color: hsl(0, 0%, 100%);
 }
 
+.newsletter-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.newsletter-description {
+    color:hsl(0, 0%, 100%);
+}
+
+.newsletterinput-section{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.newsletter-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    border: none;
+    width: 400px;
+}
+
+
+.newsletter-button{
+    background-color:hsl(176, 68%, 64%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    border: none;  
+    color: hsl(0, 0%, 100%); 
+}
