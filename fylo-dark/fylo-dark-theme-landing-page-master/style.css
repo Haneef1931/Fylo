@@ -155,3 +155,31 @@ body {
     border: none;  
     color: hsl(0, 0%, 100%); 
 }
+
+
+ 
+.footer-image{
+padding-right: 50px;
+padding-left: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.footer-section{
+    color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-icon{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    Padding-left: 10px;
+}
+
+.footer-link{
+    color:white;
+}
