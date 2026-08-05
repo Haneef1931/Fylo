@@ -125,10 +125,10 @@ body {
 }
 
 .newsletter-description {
-    color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
 }
 
-.newsletterinput-section{
+.newsletterinput-section {
     display: flex;
     gap: 10px;
     padding-top: 10px;
@@ -145,34 +145,34 @@ body {
 }
 
 
-.newsletter-button{
-    background-color:hsl(176, 68%, 64%);
+.newsletter-button {
+    background-color: hsl(176, 68%, 64%);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 16px;
-    border: none;  
-    color: hsl(0, 0%, 100%); 
+    border: none;
+    color: hsl(0, 0%, 100%);
 }
 
 
- 
-.footer-image{
-padding-right: 50px;
-padding-left: 50px;
-padding-top: 50px;
-padding-bottom: 50px;
+
+.footer-image {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.footer-section{
-    color:white;
+.footer-section {
+    color: white;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.footer-icon{
+.footer-icon {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -180,6 +180,41 @@ padding-bottom: 50px;
     Padding-left: 10px;
 }
 
-.footer-link{
-    color:white;
+.footer-link {
+    color: white;
+    display: block;
 }
+
+.footer-container {
+    width: 350px;
+
+}
+
+.footer-descriptionsection {
+width: 350px;
+    display: flex;
+}
+
+.footer-image {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icondescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-icon {
+    width: 15px;
+    height: 15px;
+}
+
