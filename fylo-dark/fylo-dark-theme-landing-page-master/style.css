@@ -170,6 +170,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 10px;
 }
 
 .footer-icon {
@@ -177,7 +178,7 @@ body {
     display: flex;
     justify-content: center;
     padding-right: 10px;
-    Padding-left: 10px;
+    padding-left: 10px;
 }
 
 .footer-link {
@@ -187,7 +188,9 @@ body {
 
 .footer-container {
     width: 350px;
-
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-descriptionsection {
@@ -218,3 +221,7 @@ width: 350px;
     height: 15px;
 }
 
+.icon-section{
+    display: flex;
+    gap: 15px;
+}
