@@ -188,7 +188,6 @@ body {
 
 .footer-container {
     width: 350px;
-    
     display: flex;
     flex-direction: column;
 }
